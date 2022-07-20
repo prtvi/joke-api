@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	config "jokeapi/config"
-	routes "jokeapi/routes"
+	config "prtvi/joke-api/config"
+	routes "prtvi/joke-api/routes"
 
 	"github.com/labstack/echo/v4"
 )

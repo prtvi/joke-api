@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	model "jokeapi/model"
+	model "prtvi/joke-api/model"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"

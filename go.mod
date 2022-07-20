@@ -1,4 +1,4 @@
-module jokeapi
+module prtvi/joke-api
 
 go 1.18
 

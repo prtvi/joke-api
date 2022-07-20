@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	utils "jokeapi/utils"
+	// utils "prtvi/joke-api/utils"
 
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
@@ -23,6 +23,6 @@ func EstablishConnection() {
 
 	Collection = *client.Database(os.Getenv("DB_NAME")).Collection(os.Getenv("COLLECTION_NAME"))
 
-	// enable to load jokes on db using data.json file
-	utils.LoadJokes(Collection)
+	// enable to insert jokes into db using data.json file
+	// utils.LoadJokes(Collection)
 }

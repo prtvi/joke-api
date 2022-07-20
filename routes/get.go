@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strconv"
 
-	config "jokeapi/config"
-	utils "jokeapi/utils"
+	config "prtvi/joke-api/config"
+	utils "prtvi/joke-api/utils"
 
 	"github.com/labstack/echo/v4"
 	"go.mongodb.org/mongo-driver/bson"
