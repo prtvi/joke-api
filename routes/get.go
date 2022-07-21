@@ -13,6 +13,10 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 )
 
+func Welcome(c echo.Context) error {
+	return c.JSON(http.StatusOK, "Welcome to the Joke API!")
+}
+
 // "/random" route
 // returns a random joke
 

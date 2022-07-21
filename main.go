@@ -19,6 +19,8 @@ func main() {
 
 	e := echo.New()
 
+	e.GET("/", routes.Welcome)
+
 	// READ
 	e.GET("/random", routes.RandomOne)
 	e.GET("/random/:n", routes.RandomN)
