@@ -1,26 +1,24 @@
 # Joke API using Golang and MongoDB
 
 A simple API built using the Echo framework in Golang.
-The API is hosted [here]()
+The API is hosted [here](https://joke-api-go.herokuapp.com/random)
 
-### USING THE API
+## USING THE API
 
 - [Getting started](#getting-started) introduces you to the operations offered by the API.
 - [API calls](#api-calls) gives you examples of those operations
 
-### Types of jokes
+## Types of jokes
 
-`type`: identifier of group
+`type`: identifier of group/type of joke
 
-| Type        |
-| ----------- |
-| General     |
-| Knock-Knock |
-| Programming |
+| #   | Type        |
+| --- | ----------- |
+| 1   | General     |
+| 2   | Knock-Knock |
+| 3   | Programming |
 
-## Getting Started
-
-#### Endpoints
+# Getting Started
 
 | Endpoint                                  |                                        What it does                                        |
 | ----------------------------------------- | :----------------------------------------------------------------------------------------: |
@@ -46,9 +44,9 @@ This API supports a data response in JSON format.
 }
 ```
 
-### /random/:n
+### /random/:count
 
-`n`: number of jokes to be fetched
+`count`: number of jokes to be fetched
 
 `/random/2`
 
