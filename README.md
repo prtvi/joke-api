@@ -1,7 +1,6 @@
 # Joke API using Golang and MongoDB
 
 A simple API built using the Echo framework in Golang.
-The API is hosted [here](https://go-joke-api.herokuapp.com/random)
 
 ## USING THE API
 
