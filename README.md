@@ -149,3 +149,7 @@ This API supports a data response in JSON format.
   }
 }
 ```
+
+## Other links
+
+Click [here](https://prtvi.github.io/allprojects.html) to check out my other projects
